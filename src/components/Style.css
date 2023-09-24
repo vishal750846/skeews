@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    height: 500px;
+    min-height: 100vh;
+    background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .form {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  
+  .input-container {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 14px;
+  }
+  
+  .label {
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    padding: 5px 15px 5px 5px;
+  }
+  
+  .forgotten-password {
+    align-self: flex-end;
+    margin-top: 7px;
+  }
+  
+  #login-btn {
+    align-self: center;
+    padding: 7px 30px;
+    margin-top: 30px;
+    border: none;
+    color: #fff;
+    background-color: #990000;
+    box-shadow: 2px 2px 2px #990000;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in;
+  }
+  
+  #login-btn:hover {
+    background-color:#990000;
+    box-shadow: none;
+    transform: translateX(1px) translateY(1px);
+  }
+  
+  .signup-label {
+    position: relative;
+    bottom: -10px;
+    color: #000000;
+    font-size: 14px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: rgb(204, 4, 121);
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }

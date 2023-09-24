@@ -1,0 +1,33 @@
+.ck-editor__editable {
+    height: 300px;
+    border-radius: 10px;
+}
+
+input#checkboxx:checked::before {
+  content: "X";
+  font-size: 14px;
+  position: relative;
+  border: 1px solid rgb(50, 48, 48);
+  background: hwb(180 97% 3%);
+  padding: 0px 4px;
+  top: -3px;
+  font-weight: 700;
+  border-radius: 4px;
+  transform: rotate(236deg);
+}
+input#checkboxx {
+    height: 19px;
+    width: 19px;
+    
+  }
+  .marbidask {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+}
+.newret {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 50px;
+}
+ 
